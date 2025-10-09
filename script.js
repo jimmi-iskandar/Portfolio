@@ -3,19 +3,31 @@
 // ==========================================
 const projectsData = [
     {
-        title: "Nama Proyek 1",
+        title: "Rental DVD (Tugas Pemrogaman web lanjut)",
         images: [
             {
-                url: "images/project1-screenshot1.jpg", // GANTI: Path ke gambar proyek
-                caption: "Tampilan halaman utama" // GANTI: Deskripsi gambar
+                url: "images/Project1.png", // GANTI: Path ke gambar proyek
+                caption: "Tampilan Login" // GANTI: Deskripsi gambar
             },
             {
-                url: "images/project1-screenshot2.jpg",
-                caption: "Fitur dashboard"
+                url: "images/project1-2.png",
+                caption: "Tampilan Registrasi"
             },
             {
-                url: "images/project1-screenshot3.jpg",
-                caption: "Tampilan mobile responsive"
+                url: "images/project1-1.png",
+                caption: "Tampilan Dashboard"
+            },
+            {
+                url: "images/project1-6.png",
+                caption: "Tampilan Dashboard"
+            },
+            {
+                url: "images/project1-5.png",
+                caption: "Tampilan Dashboard untuk admin"
+            },
+            {
+                url: "images/project1-3.png",
+                caption: "Tampilan edit pada film yang akan di sediakan Admin"
             }
         ]
     },
