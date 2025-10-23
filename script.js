@@ -1,35 +1,21 @@
-
-
 // ==========================================
 // DATA PROYEK - GANTI DENGAN DATA ANDA
 // ==========================================
 const projectsData = [
     {
-        title: "Rental DVD (Tugas Pemrogaman web lanjut)",
+        title: "Nama Proyek 1",
         images: [
             {
-                url: "images/Project1.png", // GANTI: Path ke gambar proyek
-                caption: "Tampilan Login" // GANTI: Deskripsi gambar
+                url: "images/project1-screenshot1.jpg", // GANTI: Path ke gambar proyek
+                caption: "Tampilan halaman utama" // GANTI: Deskripsi gambar
             },
             {
-                url: "images/project1-2.png",
-                caption: "Tampilan Registrasi"
+                url: "images/project1-screenshot2.jpg",
+                caption: "Fitur dashboard"
             },
             {
-                url: "images/project1-1.png",
-                caption: "Tampilan Dashboard"
-            },
-            {
-                url: "images/project1-6.png",
-                caption: "Tampilan Dashboard"
-            },
-            {
-                url: "images/project1-5.png",
-                caption: "Tampilan Dashboard untuk admin"
-            },
-            {
-                url: "images/project1-3.png",
-                caption: "Tampilan edit pada film yang akan di sediakan Admin"
+                url: "images/project1-screenshot3.jpg",
+                caption: "Tampilan mobile responsive"
             }
         ]
     },
@@ -226,4 +212,13 @@ images.forEach(img => imageObserver.observe(img));
 // CONSOLE MESSAGE
 // ==========================================
 console.log('%c🚀 Portfolio Website', 'font-size: 20px; font-weight: bold; color: #6366f1;');
-console.log('%cDibuat dengan ❤️ oleh [Nama Anda]', 'font-size: 14px; color: #8b5cf6;');
+console.log('%cDibuat dengan ❤️ oleh [Nama Anda]', 'font-size: 14px; color: #8b5cf6;'); // GANTI: Nama Anda
+
+// ==========================================
+// LOADING SCREEN - Hilangkan loading setelah page siap
+// ==========================================
+window.addEventListener('load', () => {
+    // Semua resource sudah loaded
+    document.body.classList.add('loaded');
+    console.log('%c✅ Website loaded successfully!', 'color: #10b981; font-weight: bold;');
+});

@@ -3,8 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio website - Fresh Graduate Web Developer">
-    <title>Portfolio - Nama Anda</title>
+    
+    <!-- SEO Meta Tags - GANTI sesuai informasi Anda -->
+    <meta name="description" content="Portfolio website - Fresh Graduate Web Developer. Menampilkan proyek dan keahlian saya.">
+    <meta name="keywords" content="web developer, fresh graduate, portfolio, programmer">
+    <meta name="author" content="Nama Anda">
+    
+    <!-- GANTI: Judul website Anda -->
+    <title>Portfolio - Nama Anda | Web Developer</title>
     
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
@@ -45,9 +51,9 @@
     <section id="hero" class="hero">
         <div class="container">
             <div class="hero-content">
-                <div class="hero-badge">Fresh Graduate</div>
+                <div class="hero-badge">Fresh Graduate 🎓</div>
                 <h1 class="hero-title">
-                    Hai, Saya <span class="gradient-text">Jimmi Iskandar</span>
+                    Hai, Saya <span class="gradient-text">Nama Anda</span>
                 </h1>
                 <h2 class="hero-subtitle">Web Developer & Designer</h2>
                 <p class="hero-description">
@@ -60,7 +66,7 @@
                 </div>
             </div>
         </div>
-    <!-- <div class="scroll-indicator">↓</div> -->
+        <div class="scroll-indicator">↓</div>
     </section>
 
     <!-- ABOUT SECTION -->
@@ -73,12 +79,12 @@
                 <div class="about-image">
                     <!-- GANTI: Foto profil Anda di folder images/foto-profil.jpg -->
                     <div class="profile-image">
-                        <img src="images/profile.png" alt="Foto Profil" onerror="this.src='https://ui-avatars.com/api/?name=Your+Name&size=400&background=6366f1&color=fff'">
+                        <img src="images/foto-profil.jpg" alt="Foto Profil" onerror="this.src='https://ui-avatars.com/api/?name=Your+Name&size=400&background=6366f1&color=fff'">
                     </div>
                 </div>
                 
                 <div class="about-text">
-                    <h3 class="about-name">Jimmi Iskandar</h3>
+                    <h3 class="about-name">Nama Anda</h3>
                     <p class="about-role">Fresh Graduate | Web Developer</p>
                     <p class="about-description">
                         <!-- GANTI: Bio/deskripsi tentang diri Anda -->
@@ -102,7 +108,13 @@
             <div class="skills-grid">
                 <!-- Skill 1 - GANTI sesuai keahlian Anda -->
                 <div class="skill-card">
-                    <div class="skill-icon">💻</div>
+                    <!-- GANTI: Icon dengan gambar Anda sendiri -->
+                    <!-- Letakkan file gambar di folder icons/ (contoh: icons/programming.png) -->
+                    <!-- Ukuran yang direkomendasikan: 64x64px atau 128x128px -->
+                    <div class="skill-icon-img">
+                        <img src="icons/programming.png" alt="Programming Icon" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                        <div class="skill-icon-fallback" style="display:none;">💻</div>
+                    </div>
                     <h3 class="skill-title">Frontend Development</h3>
                     <ul class="skill-list">
                         <li>React.js</li>
@@ -114,7 +126,11 @@
                 
                 <!-- Skill 2 - GANTI sesuai keahlian Anda -->
                 <div class="skill-card">
-                    <div class="skill-icon">🎨</div>
+                    <!-- GANTI: Icon dengan gambar Anda sendiri -->
+                    <div class="skill-icon-img">
+                        <img src="icons/design.png" alt="Design Icon" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                        <div class="skill-icon-fallback" style="display:none;">🎨</div>
+                    </div>
                     <h3 class="skill-title">UI/UX Design</h3>
                     <ul class="skill-list">
                         <li>Figma</li>
@@ -126,7 +142,11 @@
                 
                 <!-- Skill 3 - GANTI sesuai keahlian Anda -->
                 <div class="skill-card">
-                    <div class="skill-icon">🗄️</div>
+                    <!-- GANTI: Icon dengan gambar Anda sendiri -->
+                    <div class="skill-icon-img">
+                        <img src="icons/database.png" alt="Database Icon" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                        <div class="skill-icon-fallback" style="display:none;">🗄️</div>
+                    </div>
                     <h3 class="skill-title">Backend & Database</h3>
                     <ul class="skill-list">
                         <li>Node.js</li>
@@ -138,7 +158,11 @@
                 
                 <!-- Skill 4 - GANTI sesuai keahlian Anda -->
                 <div class="skill-card">
-                    <div class="skill-icon">💡</div>
+                    <!-- GANTI: Icon dengan gambar Anda sendiri -->
+                    <div class="skill-icon-img">
+                        <img src="icons/softskills.png" alt="Soft Skills Icon" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                        <div class="skill-icon-fallback" style="display:none;">💡</div>
+                    </div>
                     <h3 class="skill-title">Lainnya</h3>
                     <ul class="skill-list">
                         <li>Git & GitHub</li>
@@ -163,29 +187,27 @@
                 <div class="project-card">
                     <div class="project-image">
                         <!-- GANTI: Screenshot proyek di folder images/project1.jpg -->
-                        <img src="images/Project1.png" alt="Project 1" >
+                        <img src="images/project1.jpg" alt="Project 1" onerror="this.src='https://via.placeholder.com/600x400/6366f1/ffffff?text=Project+Screenshot'">
                         <div class="project-overlay">
-                            <!-- <p>Screenshot proyek Anda</p> -->
+                            <p>Screenshot proyek Anda</p>
                         </div>
                     </div>
                     
                     <div class="project-content">
-                        <h3 class="project-title">Rental DVD iskandar</h3>
+                        <h3 class="project-title">Nama Proyek 1</h3>
                         <p class="project-description">
-                            Pada project ini saya membuat aplikasi berbasis web menggunakan bahasa pemrogaman PHP,
-                            untuk style saya menggunakan Bootstrap 5, tugas ini dibuat untuk memenuhi tugas saat masa kuliah, 
-                            pada mata pembelajaran Pemrogaman web lajut, saya cukup senang dimana saya membuat full dari tampilan(front End) sampai dengan
-                            Back End. 
+                            Deskripsi singkat tentang proyek ini. Jelaskan teknologi yang digunakan 
+                            dan tujuan dari proyek ini.
                         </p>
                         
                         <div class="project-tech">
-                            <span class="tech-badge">PHP</span>
-                            <span class="tech-badge">BootStrap 5</span>
-                            <span class="tech-badge">MySql</span>
+                            <span class="tech-badge">React</span>
+                            <span class="tech-badge">TypeScript</span>
+                            <span class="tech-badge">Tailwind CSS</span>
                         </div>
                         
                         <div class="project-buttons">
-                            <a href="https://github.com/jimmi-iskandar/202043500681" class="btn btn-outline" target="_blank">
+                            <a href="#" class="btn btn-outline" target="_blank">
                                 <span>🔗</span> GitHub
                             </a>
                             <button class="btn btn-primary" onclick="openGallery(0)">
@@ -273,32 +295,49 @@
             
             <div class="contact-grid">
                 <!-- Email - GANTI dengan email Anda -->
-                <a href="mailto:jim.iskandar20@gmail.com" class="contact-card">
-                    <div class="contact-icon">📧</div>
+                <a href="mailto:email@example.com" class="contact-card">
+                    <!-- GANTI: Icon dengan gambar Anda sendiri -->
+                    <!-- Letakkan file gambar di folder icons/ (contoh: icons/email.png) -->
+                    <div class="contact-icon-img">
+                        <img src="icons/email.png" alt="Email Icon" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                        <div class="contact-icon-fallback" style="display:none;">📧</div>
+                    </div>
                     <h3 class="contact-title">Email</h3>
-                    <p class="contact-value">jim.iskandar20@gmail.com</p>
+                    <p class="contact-value">email@example.com</p>
                 </a>
                 
                 <!-- GitHub - GANTI dengan GitHub Anda -->
-                <a href="https://github.com/jimmi-iskandar" target="_blank" class="contact-card">
-                    <div class="contact-icon">🐙</div>
+                <a href="https://github.com/username" target="_blank" class="contact-card">
+                    <!-- GANTI: Icon dengan gambar Anda sendiri -->
+                    <div class="contact-icon-img">
+                        <img src="icons/github.png" alt="GitHub Icon" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                        <div class="contact-icon-fallback" style="display:none;">🐙</div>
+                    </div>
                     <h3 class="contact-title">GitHub</h3>
-                    <p class="contact-value">jimmi-iskandar</p>
+                    <p class="contact-value">github.com/username</p>
                 </a>
                 
                 <!-- LinkedIn - GANTI dengan LinkedIn Anda -->
-                <a href="https://linkedin.com/in/jimmi iskandar" target="_blank" class="contact-card">
-                    <div class="contact-icon">💼</div>
+                <a href="https://linkedin.com/in/username" target="_blank" class="contact-card">
+                    <!-- GANTI: Icon dengan gambar Anda sendiri -->
+                    <div class="contact-icon-img">
+                        <img src="icons/linkedin.png" alt="LinkedIn Icon" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                        <div class="contact-icon-fallback" style="display:none;">💼</div>
+                    </div>
                     <h3 class="contact-title">LinkedIn</h3>
-                    <p class="contact-value">Jimmi Iskandar</p>
+                    <p class="contact-value">linkedin.com/in/username</p>
                 </a>
                 
                 <!-- Instagram - GANTI dengan Instagram Anda -->
-                <!-- <a href="https://instagram.com/username" target="_blank" class="contact-card">
-                    <div class="contact-icon">📷</div>
+                <a href="https://instagram.com/username" target="_blank" class="contact-card">
+                    <!-- GANTI: Icon dengan gambar Anda sendiri -->
+                    <div class="contact-icon-img">
+                        <img src="icons/instagram.png" alt="Instagram Icon" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                        <div class="contact-icon-fallback" style="display:none;">📷</div>
+                    </div>
                     <h3 class="contact-title">Instagram</h3>
                     <p class="contact-value">@username</p>
-                </a> -->
+                </a>
             </div>
         </div>
     </section>
@@ -332,6 +371,6 @@
     </div>
 
     <!-- JavaScript -->
-    <script src="script.js" defer></script>
+    <script src="script.js"></script>
 </body>
 </html>
