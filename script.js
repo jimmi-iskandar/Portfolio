@@ -294,5 +294,5 @@ console.log('%cDibuat dengan ☕🚬 oleh Jimmi Iskandar', 'font-size: 14px; col
 window.addEventListener('load', () => {
     // Semua resource sudah loaded
     document.body.classList.add('loaded');
-    console.log('%c✅ Website loaded successfully!', 'color: #10b981; font-weight: bold;');
+    console.log('Website loaded successfully!', 'color: #10b981; font-weight: bold;');
 });
