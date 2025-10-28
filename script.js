@@ -211,8 +211,8 @@ images.forEach(img => imageObserver.observe(img));
 // ==========================================
 // CONSOLE MESSAGE
 // ==========================================
-console.log('%c🚀 Portfolio Website', 'font-size: 20px; font-weight: bold; color: #6366f1;');
-console.log('%cDibuat dengan ❤️ oleh [Nama Anda]', 'font-size: 14px; color: #8b5cf6;'); // GANTI: Nama Anda
+//console.log('%c🚀 Portfolio Website', 'font-size: 20px; font-weight: bold; color: #6366f1;');
+console.log('%cDibuat dengan ☕🚬 oleh Jimmi Iskandar', 'font-size: 14px; color: #8b5cf6;'); // GANTI: Nama Anda
 
 // ==========================================
 // LOADING SCREEN - Hilangkan loading setelah page siap
