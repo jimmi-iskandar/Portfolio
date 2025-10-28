@@ -6,7 +6,7 @@ const projectsData = [
         title: "Rental DVD Iskandar",
         images: [
             {
-                url: "images/project1/project1.png", // GANTI: Path ke gambar proyek
+                url: "images/project1/Project1.png", // GANTI: Path ke gambar proyek
                 caption: "Halaman Login" // GANTI: Deskripsi gambar
             },
             {
