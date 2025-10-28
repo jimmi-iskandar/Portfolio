@@ -3,7 +3,7 @@
 // ==========================================
 const projectsData = [
     {
-        title: "Nama Proyek 1",
+        title: "Rental DVD Iskandar",
         images: [
             {
                 url: "images/project1/project1.png", // GANTI: Path ke gambar proyek
@@ -32,7 +32,7 @@ const projectsData = [
         ]
     },
     {
-        title: "Nama Proyek 2",
+        title: "Quotation Management System",
         images: [
             {
                 url: "images/project2/login.png",
@@ -86,7 +86,7 @@ const projectsData = [
         ]
     },
     {
-        title: "Nama Proyek 3",
+        title: "SPK CV.Farros Sablon",
         images: [
             {
                 url: "images/project3/Login.png",
