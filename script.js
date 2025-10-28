@@ -89,7 +89,7 @@ const projectsData = [
         title: "SPK CV.Farros Sablon",
         images: [
             {
-                url: "images/project3/Login.png",
+                url: "images/project3/login.png",
                 caption: "Halaman login"
             },
             {
